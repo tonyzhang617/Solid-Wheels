@@ -3,7 +3,7 @@ Solid Wheels is an Android game featuring realistic physics effects built with l
 In this game, the player controls a race car to overcome various obstacles to reach the destination.
 
 **Here is an animation captured in the game:**
-![Solid Wheels gif](https://github.com/tonyzhang617/Solid-Wheels/demo/demo.gif)
+![Solid Wheels gif](https://github.com/tonyzhang617/Solid-Wheels/raw/master/demo/demo.gif)
 
 # Build Instructions
 - Clone the repository or download and unzip the zip file to your computer
