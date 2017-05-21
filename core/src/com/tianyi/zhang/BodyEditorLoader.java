@@ -109,21 +109,6 @@ public class BodyEditorLoader {
 		public final Vector2 center = new Vector2();
 		public float radius;
 	}
-
-	/*private Model readJson(String str) {
-		Model m = new Model();
-		JsonValue rootElem = new JsonReader().parse(str);
-
-		Array<?> bodiesElems = (Array<?>) rootElem.get("rigidBodies");
-
-		for (int i=0; i<bodiesElems.size; i++) {
-			OrderedMap<String,?> bodyElem = (OrderedMap<String,?>) bodiesElems.get(i);
-			RigidBodyModel rbModel = readRigidBody(bodyElem);
-			m.rigidBodies.put(rbModel.name, rbModel);
-		}
-
-		return m;
-	}*/
 	
 	private Model readJson(String str) {
 	    Model m = new Model();
